@@ -1,0 +1,18 @@
+.item {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 1fr 1fr;
+	justify-content: start;
+	align-items: center;
+	color: #000;
+}
+
+.item p {
+	padding-left: 10px;
+}
+
+.item img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
