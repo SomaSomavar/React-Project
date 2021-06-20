@@ -1,0 +1,14 @@
+.app-wrapper {
+	max-width: 800px;
+	min-height: 600px;
+	margin: 50px auto;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.54);
+	text-align: center;
+	background-color: #609bda;
+}
+
+.app-wrapper span {
+	font-weight: 700;
+}

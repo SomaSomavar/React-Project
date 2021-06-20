@@ -1,0 +1,33 @@
+ul {
+	padding-left: 0;
+	text-align: left;
+}
+
+.list-item {
+	list-style: none;
+	padding: 10px;
+	margin: 8px 0;
+	text-align: left;
+	background-color: rgb(241, 241, 241);
+	box-shadow: 1px 0px 59px 25px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+}
+
+.app-list-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+button {
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+button:last-child {
+	margin-right: 0;
+}
+
+.like .fa-heart {
+	color: red
+}
